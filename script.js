@@ -1,0 +1,6 @@
+let balance = prompt("Введіть суму грошей у гаманці")
+let price = prompt("Введіть вартість однієї шоколадки")
+let amount = Math.floor(balance / price)
+let change = balance - (price * amount)
+alert("Кількість шоколадок які ви можете купити: " + amount)
+alert("Ваша решта після покупки: " + change)
